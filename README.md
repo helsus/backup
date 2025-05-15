@@ -31,7 +31,17 @@ A Docker container for performing periodic backups to S3-compatible storage usin
 
 ## Usage
 
+### Using Prebuilt Image
+
+You can use the prebuilt Docker image from GitHub Container Registry:
+
+```bash
+docker pull ghcr.io/helsus/backup:latest
+```
+
 ### Building the Image
+
+Alternatively, you can build the image yourself:
 
 ```bash
 docker build -t s3-backup .
